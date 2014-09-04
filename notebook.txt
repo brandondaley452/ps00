@@ -1,0 +1,34 @@
+Brandon Daley
+CS 5010/5011
+Programming Design Paradigm
+Fall 2014 Semester
+Dr. Stephen Chang
+
+========================================================================================================
+
+  DATE |    WHO   | START | STOP |  INTERRUPTS  | QUESTION | ToT | COMMENTS
+--------------------------------------------------------------------------------------------------------
+02 Sep | Me       | 1528  | 1535 |     N/A      |   N/A    | 07  | Reviewed necessary steps to prep computer; CCIS ID already created (bdaley); already have MS PPT and Github account (brandondaley452)
+02 Sep | Me       | 1535  | 1624 |     10       |   N/A    | 39  | Signed up for Piazza, got github client, and installed Racket; PENDING: gain access to CCS email; check wireless @ NEU; Piazza verification code
+02 Sep | Me       | 2210  | 2216 |     N/A      |   01     | 06  | Completed ex 1, performed two basic arithmetic ops, then made definitions for 3rd expr
+02 Sep | Me       | 2230  | 2234 |     N/A      |   02     | 04  | Completed ex 2, first made if-statement, then removed upon realizing that the boolean op returns necessary values
+03 Sep | Me       | 2115  | 2120 |     N/A      |   03     | 05  | Completed ex 3: contract, purpose statement, examples, definition; no issues
+03 Sep | Me       | 2120  | 2124 |     N/A      |   04     | 04  | Completed ex 4: contract, purpose statement, examples, definition; no issues
+03 Sep | Me       | 2125  | 2132 |     N/A      |   05     | 07  | Completed ex 5: contract, purpose statement, examples, definition; no issues; included basic feedback but not sure yet on how to throw exception
+03 Sep | Me       | 2133  | 2138 |     N/A      |   06     | 05  | Examined ex 6; link broken to example formula--PENDING: verification from Dr. Chang on what formula to use or if we can just use the basic one
+03 Sep | Me       | 2140  | 2145 |     N/A      |   07     | 05  | Completed ex 7: contract, purpose statement, examples, definition; no issues
+03 Sep | Me       | 2146  | 2152 |     N/A      |   08     | 06  | Completed ex 8: contract, purpose statement, examples, definition; no issues
+03 Sep | Me       | 2155  | 2158 |     N/A      |   09     | 03  | Examined remainder documentation to determine diffs b/w remainder and modulus
+03 Sep | Me       | 2200  | 2203 |     N/A      |   09     | 03  | Completed ex 9: contract, purpose statement, examples, definition; PENDING: verification on whether this ex is just to show how or if it is meant to override existing predicate
+03 Sep | Me       | 2204  | 2215 |     N/A      |   10     | 11  | Reasoned basic structure of ex 10; determined what cond to default to and how to get there
+03 Sep | Me       | 2215  | 2220 |     N/A      |   10     | 05  | Completed ex 10: contract, purpose statement, examples, definition; no issues
+============committing to git: 03 Sep 2235 ===================
+03 Sep | Me       | 2240  | 2306 |     N/A      |   06     | 26  | Completed ex 6: contract, purpose statement, examples, definition; no issues; solved for positive root after opening webpage in IE (the equation rendered there)
+============committing to git: 03 Sep 2310 ===================
+04 Sep | Me       | 1312  | 1320 |     N/A      |   N/A    | 08  | After instruction on how to structure questions and repository, created files for each example and put in new folder named bdaley-cs5010-f14
+============committing to git: 04 Sep 1538 ===================
+    
+Total Time On Task Q1 (minutes)                  XXX 
+Total Time On Task Q2 (minutes)                  XXX 
+TOTQ1 (hours and tenths)                         X.X 
+TOTQ2 (hours and tenths)                         X.X
