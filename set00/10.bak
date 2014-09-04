@@ -6,10 +6,10 @@
 ; GIVEN: three numbers in any order
 ; RETURNS: the sum of the largest two numbers
 ; Examples:
-; (two-largest-sum 1 2 3)    => 5
-; (two-largest-sum -8 7 -3)  => 4
-; (two-largest-sum 0 0 0)    => 0
-; (two-largest-sum 100 2 99) => 199
+; (two_largest_sum 1 2 3)    => 5
+; (two_largest_sum -8 7 -3)  => 4
+; (two_largest_sum 0 0 0)    => 0
+; (two_largest_sum 100 2 99) => 199
 (define (two-largest-sum a b c)
   (cond
     ; check if a is greater than b

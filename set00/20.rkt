@@ -1,0 +1,12 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |20|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
+; Ex 20
+; function-name : DataType DataType -> DataType
+; GIVEN: 
+; RETURNS: 
+; Examples:
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
