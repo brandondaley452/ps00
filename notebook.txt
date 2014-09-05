@@ -25,8 +25,24 @@ Dr. Stephen Chang
 ============committing to git: 03 Sep 2235 ===================
 03 Sep | Me       | 2240  | 2306 |     N/A      |   06     | 26  | Completed ex 6: contract, purpose statement, examples, definition; no issues; solved for positive root after opening webpage in IE (the equation rendered there)
 ============committing to git: 03 Sep 2310 ===================
-04 Sep | Me       | 1312  | 1320 |     N/A      |   N/A    | 08  | After instruction on how to structure questions and repository, created files for each example and put in new folder named bdaley-cs5010-f14
+04 Sep | Me       | 1312  | 1320 |     N/A      |   N/A    | 08  | After instruction on how to structure questions and repository, created files for each example and put in new folder named ps00
 ============committing to git: 04 Sep 1538 ===================
+05 Sep | Me       | 0832  | 0900 |     N/A      |   03     | 28  | Researched how to create tests; added two tests to Ex 3
+============committing to git: 05 Sep 0900 ===================
+05 Sep | Me       | 0905  | 0911 |     N/A      |   04     | 06  | Added test cases and error checking to Ex 4
+============committing to git: 05 Sep 0911 ===================
+05 Sep | Me       | 0940  | 0944 |     N/A      |   05     | 04  | Added test cases to Ex 5
+============committing to git: 05 Sep 0944 ===================
+05 Sep | Me       | 1032  | 1044 |     N/A      |   06     | 12  | Added test cases and error checking to Ex 6
+============committing to git: 05 Sep 1044 ===================
+05 Sep | Me       | 1045  | 1054 |     N/A      |   07     | 09  | Added test cases and error checking to Ex 7
+============committing to git: 05 Sep 1054 ===================
+05 Sep | Me       | 1055  | 1100 |     N/A      |   08     | 05  | Added test cases and error checking to Ex 8
+============committing to git: 05 Sep 1100 ===================
+05 Sep | Me       | 1100  | 1105 |     N/A      |   09     | 05  | Added test cases and error checking to Ex 9; renamed to avoid conflicts with even?
+============committing to git: 05 Sep 1105 ===================
+05 Sep | Me       | 1105  | 1119 |     N/A      |   09     | 05  | Added test cases and error checking to Ex 10
+============committing to git: 05 Sep 1119 ===================
     
 Total Time On Task Q1 (minutes)                  XXX 
 Total Time On Task Q2 (minutes)                  XXX 
