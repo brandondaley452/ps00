@@ -17,19 +17,19 @@
 
 ; Tests for circle-area
 (test-begin
- (check-within
+ (check-=
   (circle-area 1)
   3.141592653589793
   0.0000000001
   )
 
- (check-within
+ (check-=
   (circle-area 5)
   78.53981633974483
   0.0000000001
   )
 
- (check-within
+ (check-=
   (circle-area 7)
   153.93804002589985
   0.0000000001
