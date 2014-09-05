@@ -20,28 +20,23 @@
 
 ; Tests for even-num?
 (test-begin
- (check-equal?
+ (check-false
   (even-num? 1)
-  false
   )
 
- (check-equal?
+ (check-true
   (even-num? 2)
-  true
   )
 
- (check-equal?
+ (check-true
   (even-num? 4)
-  true
   )
 
- (check-equal?
+ (check-false
   (even-num? -9)
-  false
   )
 
- (check-equal?
+ (check-true
   (even-num? -104)
-  true
   )
  )
