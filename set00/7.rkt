@@ -17,7 +17,7 @@
 
 ; Tests for circumference
 (test-begin
- (check-within
+ (check-=
   (circumference 1)
   6.283185
   0.0001
@@ -28,7 +28,7 @@
   0
   )
 
- (check-within
+ (check-=
   (circumference 4)
   25.13274
   0.0001
