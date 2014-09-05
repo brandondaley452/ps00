@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 7
 ; circumference : Number -> Number
 ; GIVEN: the radius r of a circle 
@@ -14,19 +16,21 @@
   )
 
 ; Tests for circumference
-(check-within
- (circumference 1)
- 6.283185
- 0.0001
- )
+(test-begin
+ (check-within
+  (circumference 1)
+  6.283185
+  0.0001
+  )
 
-(check-expect
- (circumference 0)
- 0
- )
+ (check-equal?
+  (circumference 0)
+  0
+  )
 
-(check-within
- (circumference 4)
- 25.13274
- 0.0001
+ (check-within
+  (circumference 4)
+  25.13274
+  0.0001
+  )
  )
