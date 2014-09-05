@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 10
 ; two-largest-sum : Number Number Number -> Number
 ; GIVEN: three numbers in any order
@@ -26,22 +28,25 @@
       )
   )
 
-(check-expect
- (two-largest-sum 1 2 3)
- 5
- )
 
-(check-expect
- (two-largest-sum -8 7 -3)
- 4
- )
+(test-begin
+ (check-equal?
+  (two-largest-sum 1 2 3)
+  5
+  )
 
-(check-expect
- (two-largest-sum 0 0 0)
- 0
- )
+ (check-equal?
+  (two-largest-sum -8 7 -3)
+  4
+  )
 
-(check-expect
- (two-largest-sum 100 2 99)
- 199
+ (check-equal?
+  (two-largest-sum 0 0 0)
+  0
+  )
+
+ (check-equal?
+  (two-largest-sum 100 2 99)
+  199
  )
+)
