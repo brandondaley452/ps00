@@ -43,6 +43,8 @@ Dr. Stephen Chang
 ============committing to git: 05 Sep 1105 ===================
 05 Sep | Me       | 1105  | 1119 |     N/A      |   09     | 05  | Added test cases and error checking to Ex 10
 ============committing to git: 05 Sep 1119 ===================
+05 Sep | Me       | 1410  | 1428 |     N/A      |   11-14  | 18  | Completed ex 11-14
+============committing to git: 05 Sep 1429 ===================
     
 Total Time On Task Q1 (minutes)                  XXX 
 Total Time On Task Q2 (minutes)                  XXX 
