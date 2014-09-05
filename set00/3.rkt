@@ -5,8 +5,8 @@
 ; Examples:
 ; (f->c 32)  => 0
 ; (f->c 100) => 37.77777777777778
-(define (f->c FTemp)
-    (* 5/9 (- FTemp 32))
+(define (f->c fTemp)
+    (* 5/9 (- fTemp 32))
   )
 
 ; Tests for f->c
