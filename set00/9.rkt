@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 9
 ; even-num? : Number -> Boolean
 ; GIVEN: an arbitrary number 
@@ -17,27 +19,29 @@
 ; NOTE: renamed function to even-num? to avoid conflicts with existing even? predicate
 
 ; Tests for even-num?
-(check-expect
- (even-num? 1)
- false
- )
+(test-begin
+ (check-equal?
+  (even-num? 1)
+  false
+  )
 
-(check-expect
- (even-num? 2)
- true
- )
+ (check-equal?
+  (even-num? 2)
+  true
+  )
 
-(check-expect
- (even-num? 4)
- true
- )
+ (check-equal?
+  (even-num? 4)
+  true
+  )
 
-(check-expect
- (even-num? -9)
- false
- )
+ (check-equal?
+  (even-num? -9)
+  false
+  )
 
-(check-expect
- (even-num? -104)
- true
+ (check-equal?
+  (even-num? -104)
+  true
+  )
  )
