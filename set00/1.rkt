@@ -7,12 +7,12 @@
 ; Illustrates how we can use multiple arguments
 (* 366 24 60 60)
 ; Constants to describe time
-(define RegYearDays 365)
-(define LeapDay 1)
-(define HrsInDay 24)
-(define MinInHr 60)
-(define SecInMin 60)
+(define regYearDays 365)
+(define leapDay 1)
+(define hrsInDay 24)
+(define minInHr 60)
+(define secInMin 60)
 ; Formula using time constants that sums seconds in a regular year and seconds in a leap day
-(+ (* RegYearDays HrsInDay MinInHr SecInMin)
-   (* LeapDay HrsInDay MinInHr SecInMin)
+(+ (* regYearDays hrsInDay minInHr secInMin)
+   (* leapDay hrsInDay minInHr secInMin)
    )
