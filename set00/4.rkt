@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 4
 ; tip : NonNegNumber Number[0.0,1.0] -> Number
 ; GIVEN: the amount of the bill in dollars and the
@@ -14,12 +16,14 @@
   )
 
 ; Tests for tip
-(check-expect
-  (tip 10 0.15)
-  1.5
-  )
+(test-begin
+ (check-equal?
+   (tip 10 0.15)
+   1.5
+   )
 
-(check-expect
-  (tip 20 0.17)
-  3.4
-  )
+ (check-equal?
+   (tip 20 0.17)
+   3.4
+   )
+ )
