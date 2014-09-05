@@ -2,11 +2,11 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname |14|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
 ; Ex 14
-; function-name : DataType DataType -> DataType
-; GIVEN: 
-; RETURNS: 
-; Examples:
-; (function-name) => 
-; (function-name) => 
-; (function-name) => 
-; (function-name) => 
+;
+; When we execute (define-struct student (id name major)), Racket will create the following functions:
+;
+; make-student
+; student?
+; student-id
+; student-name
+; student-major
