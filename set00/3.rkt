@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 3
 ; f->c : Number -> Number
 ; GIVEN: a temperature in degrees Fahrenheit as an argument
@@ -10,13 +12,16 @@
   )
 
 ; Tests for f->c
-(check-expect
-  (f->c 32)
-  0
-  )
 
-(check-within
-  (f->c 100)
-  37.7777
-  0.0001
-  )
+(test-begin
+ (check-equal?
+   (f->c 32)
+   0
+   )
+
+ (check-within
+   (f->c 100)
+   37.7777
+   0.0001
+   )
+ )
