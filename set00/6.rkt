@@ -122,7 +122,7 @@
   2
   )
 
- (check-within
+ (check-=
   (quadratic-root 6 11 -35)
   1.66666667
   0.0000001
