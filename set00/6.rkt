@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 6 (next four definitions)
 ; quadratic-root : Number Number Number -> Number
 ; GIVEN: a, b, and c as constants of equation 
@@ -49,72 +51,80 @@
   )
 
 ; Tests for under-root
-(check-expect
- (under-root 1 -3 -4)
- 25
- )
+(test-begin
+ (check-equal?
+  (under-root 1 -3 -4)
+  25
+  )
 
-(check-expect
- (under-root 1 0 -4)
- 16
- )
+ (check-equal?
+  (under-root 1 0 -4)
+  16
+  )
 
-(check-expect
- (under-root 6 11 -35)
- 961
+ (check-equal?
+  (under-root 6 11 -35)
+  961
+  )
  )
 
 ;-------------------------
 
 ; Tests for bottom-quad
-(check-expect
- (bottom-quad 1)
- 2
- )
+(test-begin
+ (check-equal?
+  (bottom-quad 1)
+  2
+  )
 
-(check-expect
- (bottom-quad 5)
- 10
- )
+ (check-equal?
+  (bottom-quad 5)
+  10
+  )
 
-(check-expect
- (bottom-quad -8)
- -16
+ (check-equal?
+  (bottom-quad -8)
+  -16
+  )
  )
 
 ;-------------------------
 
 ; Tests for top-quad
-(check-expect
- (top-quad 1 -3 -4)
- 8
- )
+(test-begin
+ (check-equal?
+  (top-quad 1 -3 -4)
+  8
+  )
 
-(check-expect
- (top-quad 1 0 -4)
- 4
- )
+ (check-equal?
+  (top-quad 1 0 -4)
+  4
+  )
 
-(check-expect
- (top-quad 6 11 -35)
- 20
+ (check-equal?
+  (top-quad 6 11 -35)
+  20
+  )
  )
 
 ;-------------------------
 
 ; Tests for quadratic-root
-(check-expect
- (quadratic-root 1 -3 -4)
- 4
- )
+(test-begin
+ (check-equal?
+  (quadratic-root 1 -3 -4)
+  4
+  )
 
-(check-expect
- (quadratic-root 1 0 -4)
- 2
- )
+ (check-equal?
+  (quadratic-root 1 0 -4)
+  2
+  )
 
-(check-within
- (quadratic-root 6 11 -35)
- 1.66666667
- 0.0000001
+ (check-within
+  (quadratic-root 6 11 -35)
+  1.66666667
+  0.0000001
+  )
  )
