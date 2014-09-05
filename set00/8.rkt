@@ -1,3 +1,5 @@
+(require rackunit)
+
 ; Ex 8
 ; circle-area : Number -> Number
 ; GIVEN: the radius r of a circle 
@@ -14,20 +16,22 @@
   )
 
 ; Tests for circle-area
-(check-within
- (circle-area 1)
- 3.141592653589793
- 0.0000000001
- )
+(test-begin
+ (check-within
+  (circle-area 1)
+  3.141592653589793
+  0.0000000001
+  )
 
-(check-within
- (circle-area 5)
- 78.53981633974483
- 0.0000000001
- )
+ (check-within
+  (circle-area 5)
+  78.53981633974483
+  0.0000000001
+  )
 
-(check-within
- (circle-area 7)
- 153.93804002589985
- 0.0000000001
+ (check-within
+  (circle-area 7)
+  153.93804002589985
+  0.0000000001
+  )
  )
