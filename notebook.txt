@@ -43,10 +43,26 @@ Dr. Stephen Chang
 ============committing to git: 05 Sep 1105 ===================
 05 Sep | Me       | 1105  | 1119 |     N/A      |   09     | 05  | Added test cases and error checking to Ex 10
 ============committing to git: 05 Sep 1119 ===================
-05 Sep | Me       | 1410  | 1428 |     N/A      |   11-14  | 18  | Completed ex 11-14
-============committing to git: 05 Sep 1429 ===================
+08 Sep | Me       | 1627  | 1637 |     N/A      |   01-10  | 10  | Reinserted Dr Racket auto headers, commit final files
+============committing to git: 08 Sep 1637 ===================
     
-Total Time On Task Q1 (minutes)                  XXX 
-Total Time On Task Q2 (minutes)                  XXX 
-TOTQ1 (hours and tenths)                         X.X 
-TOTQ2 (hours and tenths)                         X.X
+Total Time On Task Q01 (minutes)                  07 
+Total Time On Task Q02 (minutes)                  05
+Total Time On Task Q03 (minutes)                  34 
+Total Time On Task Q04 (minutes)                  11 
+Total Time On Task Q05 (minutes)                  12 
+Total Time On Task Q06 (minutes)                  44 
+Total Time On Task Q07 (minutes)                  15 
+Total Time On Task Q08 (minutes)                  12 
+Total Time On Task Q09 (minutes)                  12
+Total Time On Task Q10 (minutes)                  17 
+TOTQ01 (hours and tenths)                         0.1 
+TOTQ02 (hours and tenths)                         0.1
+TOTQ03 (hours and tenths)                         0.6 
+TOTQ04 (hours and tenths)                         0.2
+TOTQ05 (hours and tenths)                         0.2 
+TOTQ06 (hours and tenths)                         0.7
+TOTQ07 (hours and tenths)                         0.3 
+TOTQ08 (hours and tenths)                         0.2
+TOTQ09 (hours and tenths)                         0.2 
+TOTQ10 (hours and tenths)                         0.3
