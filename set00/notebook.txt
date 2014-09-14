@@ -45,6 +45,11 @@ Dr. Stephen Chang
 ============committing to git: 05 Sep 1119 ===================
 08 Sep | Me       | 1627  | 1637 |     N/A      |   01-10  | 10  | Reinserted Dr Racket auto headers, commit final files
 ============committing to git: 08 Sep 1637 ===================
+08 Sep | Me       | 1640  | 1710 |     N/A      |   11-14  | 30  | Completed ex 11-14; no issues
+11 Sep | Me       | 1640  | 1710 |     N/A      |   11-14  | 30  | Completed ex 11-14; no issues
+13 Sep | Me       | 2210  | 0030 |     30       |   21-32  | 110 | Cleaned up 21/a using scale function, waiting on Piazza feedback for 27/a
+14 Sep | Me       | 1119  | 1126 |     NA       | 27a      | 7   | Worked out bugs, understand base case recursion better; 27a complete
+============committing to git: 14 Sep 1127===================
     
 Total Time On Task Q01 (minutes)                  07 
 Total Time On Task Q02 (minutes)                  05
