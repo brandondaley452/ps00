@@ -6,19 +6,15 @@
 (require 2htdp/image)
 
 (above 
- (beside
-  ; left arm (looking at Image)
+ (beside 
   (rectangle 30 10 "solid" "brown")
-  (above
-   ; head above the body
+  (above 
    (circle 15 "solid" "brown") 
    (rectangle 45 60 "solid" "brown")
-   )
-  ; right arm (looking at Image)
+   ) 
   (rectangle 30 10 "solid" "brown")
   )
  (beside
-  ; two legs, separated by whitespace
   (rectangle 10 50 "solid" "brown")
   (rectangle 10 50 "solid" "white")
   (rectangle 10 50 "solid" "brown")

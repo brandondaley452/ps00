@@ -4,6 +4,7 @@ Programming Design Paradigm
 Fall 2014 Semester
 Dr. Stephen Chang
 
+set00 Notebook
 ========================================================================================================
 
   DATE |    WHO   | START | STOP |  INTERRUPTS  | QUESTION | ToT | COMMENTS
@@ -45,29 +46,82 @@ Dr. Stephen Chang
 ============committing to git: 05 Sep 1119 ===================
 08 Sep | Me       | 1627  | 1637 |     N/A      |   01-10  | 10  | Reinserted Dr Racket auto headers, commit final files
 ============committing to git: 08 Sep 1637 ===================
-08 Sep | Me       | 1640  | 1710 |     N/A      |   11-14  | 30  | Completed ex 11-14; no issues
-11 Sep | Me       | 1640  | 1710 |     N/A      |   11-14  | 30  | Completed ex 11-14; no issues
+13 Sep | Me       | 1640  | 1710 |     N/A      |   11-14  | 30  | Completed ex 11-14; no issues
+13 Sep | Me       | 1830  | 1942 |     15       |   15-21a | 57  | Struggling with how to factor the size of person-image in 21a; come back to it later
 13 Sep | Me       | 2210  | 0030 |     30       |   21-32  | 110 | Cleaned up 21/a using scale function, waiting on Piazza feedback for 27/a
-14 Sep | Me       | 1119  | 1126 |     NA       | 27a      | 7   | Worked out bugs, understand base case recursion better; 27a complete
+14 Sep | Me       | 1119  | 1126 |     NA       |   27a    | 7   | Worked out bugs, understand base case recursion better; 27a complete
 ============committing to git: 14 Sep 1127===================
+14 Sep | Me       | 1224  | 1244 |     NA       |   11-20  | 20  | Function headers and tests; need to remember to do that at time of function creation...
+14 Sep | Me       | 1335  | 1513 |     15       |   21-29  | 83  | Added comments, headers, and tests, to 21-29; ex 21-29 complete
+14 Sep | Me       | 1543  | 1613 |     05       |   30-32  | 25  | Added, headers, comments, tests to 30-32; now complete, no issue
+============committing to git: 14 Sep 1643===================
     
-Total Time On Task Q01 (minutes)                  07 
-Total Time On Task Q02 (minutes)                  05
-Total Time On Task Q03 (minutes)                  34 
-Total Time On Task Q04 (minutes)                  11 
-Total Time On Task Q05 (minutes)                  12 
-Total Time On Task Q06 (minutes)                  44 
-Total Time On Task Q07 (minutes)                  15 
-Total Time On Task Q08 (minutes)                  12 
-Total Time On Task Q09 (minutes)                  12
-Total Time On Task Q10 (minutes)                  17 
-TOTQ01 (hours and tenths)                         0.1 
-TOTQ02 (hours and tenths)                         0.1
-TOTQ03 (hours and tenths)                         0.6 
-TOTQ04 (hours and tenths)                         0.2
-TOTQ05 (hours and tenths)                         0.2 
-TOTQ06 (hours and tenths)                         0.7
-TOTQ07 (hours and tenths)                         0.3 
-TOTQ08 (hours and tenths)                         0.2
-TOTQ09 (hours and tenths)                         0.2 
-TOTQ10 (hours and tenths)                         0.3
+Total Time On Task Q01  (minutes)                  07 
+Total Time On Task Q02  (minutes)                  05
+Total Time On Task Q03  (minutes)                  34 
+Total Time On Task Q04  (minutes)                  11 
+Total Time On Task Q05  (minutes)                  12 
+Total Time On Task Q06  (minutes)                  44 
+Total Time On Task Q07  (minutes)                  15 
+Total Time On Task Q08  (minutes)                  12 
+Total Time On Task Q09  (minutes)                  12
+Total Time On Task Q10  (minutes)                  17 
+Total Time On Task Q11  (minutes)                  10 
+Total Time On Task Q12  (minutes)                  10
+Total Time On Task Q13  (minutes)                  10 
+Total Time On Task Q14  (minutes)                  10 
+Total Time On Task Q15  (minutes)                  09 
+Total Time On Task Q16  (minutes)                  09
+Total Time On Task Q17  (minutes)                  09
+Total Time On Task Q18  (minutes)                  09
+Total Time On Task Q19  (minutes)                  09
+Total Time On Task Q20  (minutes)                  09
+Total Time On Task Q21  (minutes)                  24
+Total Time On Task Q21a (minutes)                  24  
+Total Time On Task Q22  (minutes)                  16
+Total Time On Task Q23  (minutes)                  16
+Total Time On Task Q24  (minutes)                  16
+Total Time On Task Q25  (minutes)                  16
+Total Time On Task Q26  (minutes)                  16
+Total Time On Task Q27  (minutes)                  45 
+Total Time On Task Q27a (minutes)                  28 
+Total Time On Task Q28  (minutes)                  16 
+Total Time On Task Q29  (minutes)                  16
+Total Time On Task Q30  (minutes)                  16
+Total Time On Task Q31  (minutes)                  16
+Total Time On Task Q32  (minutes)                  16
+
+TOTQ01  (hours and tenths)                         0.1 
+TOTQ02  (hours and tenths)                         0.1
+TOTQ03  (hours and tenths)                         0.6 
+TOTQ04  (hours and tenths)                         0.2
+TOTQ05  (hours and tenths)                         0.2 
+TOTQ06  (hours and tenths)                         0.7
+TOTQ07  (hours and tenths)                         0.3 
+TOTQ08  (hours and tenths)                         0.2
+TOTQ09  (hours and tenths)                         0.2 
+TOTQ10  (hours and tenths)                         0.3
+TOTQ11  (hours and tenths)                         0.2 
+TOTQ12  (hours and tenths)                         0.2
+TOTQ13  (hours and tenths)                         0.2 
+TOTQ14  (hours and tenths)                         0.2
+TOTQ15  (hours and tenths)                         0.2 
+TOTQ16  (hours and tenths)                         0.2
+TOTQ17  (hours and tenths)                         0.2 
+TOTQ18  (hours and tenths)                         0.2
+TOTQ19  (hours and tenths)                         0.2 
+TOTQ20  (hours and tenths)                         0.2
+TOTQ21  (hours and tenths)                         0.4
+TOTQ21a (hours and tenths)                         0.4  
+TOTQ22  (hours and tenths)                         0.3
+TOTQ23  (hours and tenths)                         0.3 
+TOTQ24  (hours and tenths)                         0.3
+TOTQ25  (hours and tenths)                         0.3 
+TOTQ26  (hours and tenths)                         0.3
+TOTQ27  (hours and tenths)                         0.8 
+TOTQ27a (hours and tenths)                         0.5
+TOTQ28  (hours and tenths)                         0.4
+TOTQ29  (hours and tenths)                         0.4
+TOTQ30  (hours and tenths)                         0.4
+TOTQ31  (hours and tenths)                         0.4
+TOTQ32  (hours and tenths)                         0.4

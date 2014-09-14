@@ -65,6 +65,8 @@ def addNewEntry(notebook):
     interrupt_time = input("\nInterrupt time (##): ")
     if not is_number(interrupt_time):
         interrupt_time = "NA"
+    if len(interrupt_time) < 2:
+        interrupt_time = "0" + interrupt_time
     notebook.write(interrupt_time)
     notebook.write("      " + spacing)
     addQuestions(notebook)

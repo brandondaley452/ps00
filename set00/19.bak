@@ -4,28 +4,15 @@
 ; Ex 19
 
 (require 2htdp/image)
-(require rackunit)
 
-; rel-rec-sequence: PosInt PosNum -> Image
+; rel-rec-sequence: Number Number -> Rectangle
 ; GIVEN: width of a rectange and proportion of width to apply to height of rectange
 ; RETURNS: a solid blue rectangle with a given width and a height that equals width * proportion
 ; Examples:
-; (rel-rec-sequence 30 0.5) => (rectangle 30 15 "solid" "blue")
-; (rel-rec-sequence 2 50) => (rectangle 2 100 "solid" "blue")
-; DESIGN STRATEGY: Function Composition
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
 (define (rel-rec-sequence width prop)
   (rectangle width (* width prop) "solid" "blue")
   )
-
-; Tests for rel-rec-sequence
-(test-begin
- (check-equal?
-  (rel-rec-sequence 30 0.5)
-  (rectangle 30 15 "solid" "blue")
-  )
-
- (check-equal?
-  (rel-rec-sequence 2 50)
-  (rectangle 2 100 "solid" "blue")
-  )
- )

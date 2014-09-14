@@ -4,10 +4,21 @@
 ; Ex 27a
 
 (require 2htdp/image)
+(require rackunit)
 
+; draw-text : ListOfString -> Image
+; GIVEN: a list of Strings
+; RETURNS: an Image containing the combined list of String, where each string is separated by a space char
+; Examples:
+; (draw-text empty) => (text "" 15 "red")
+; (draw-text (list "This" "is" "a" "test.")) => (text "This is a test." 15 "red")
+; (draw-text (list "This" "is" "only" "a" "test.")) => (text "This is only a test." 15 "red")
+; DESIGN STRATEGY: Cases
 (define (draw-text lst)
   (cond
-    ; base case: only one word remaining in the list
+    ; first base case: empty list
+    [(empty? lst) (text "" 15 "red")]
+    ; second base case: only one word remaining in the list
     [(equal? 1 (length lst)) (text (first lst) 15 "red")]
     ; else, there are more words that need to be recursed through
     [else (beside
@@ -17,3 +28,21 @@
           ]
     )
   )
+
+; Tests for draw-text
+(test-begin
+ (check-equal?
+  (draw-text empty)
+  (text "" 15 "red")
+  )
+
+ (check-equal?
+  (draw-text (list "This" "is" "a" "test."))
+  (text (string-append "This is a test." "") 15 "red")
+  )
+
+ (check-equal?
+  (draw-text (list "This" "is" "only" "a" "test."))
+  (text "This is only a test." 15 "red")
+  )
+ )

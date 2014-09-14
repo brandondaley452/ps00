@@ -10,29 +10,15 @@
 ; rec-sequence(n) = width^n x length^(n+1)
 
 (require 2htdp/image)
-(require rackunit)
 
 ; rec-sequence : PosInt -> Image
-; GIVEN: an Integer n representing the n-th rectangle in the sequence 
-;        rec-sequence(n) = width^n x length^(n+1)
-; RETURNS: an Image of a Rectangle of dimensions width^n x length^(n+1)
+; GIVEN: 
+; RETURNS: 
 ; Examples:
-; (rec-sequence 1) => (rectangle 2 4 "solid" "blue")
-; (rec-sequence 4) => (rectangle 16 32 "solid" "blue")
-; DESIGN STRATEGY: Function Composition
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
+; (function-name) => 
 (define (rec-sequence n)
   (rectangle (expt 2 n) (expt 2 (+ n 1)) "solid" "blue")
   )
-
-; Tests for rec-sequence
-(test-begin
- (check-equal?
-  (rec-sequence 1)
-  (rectangle 2 4 "solid" "blue")
-  )
-
- (check-equal?
-  (rec-sequence 4)
-  (rectangle 16 32 "solid" "blue")
-  )
- )
